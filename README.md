@@ -1,13 +1,13 @@
 # Language-Translator
 This Python script is a command-line interface (CLI) tool designed for language translation. It leverages the translate library to provide easy and customizable translation functionality.
 # Features
-1.Translate text from one language to another.
-2.Supports specifying both source and target languages via command-line arguments.
-3.Defaults to translating into English if no target language is specified.
+  1.Translate text from one language to another.
+  2.Supports specifying both source and target languages via command-line arguments.
+  3.Defaults to translating into English if no target language is specified.
 # How It Works
 The script uses the argparse library to parse command-line arguments:
---from_lang: Specifies the source language of the text (optional).
---to_lang: Specifies the target language for translation (defaults to English if not provided).
+    --from_lang: Specifies the source language of the text (optional).
+    --to_lang: Specifies the target language for translation (defaults to English if not provided).
 Prompts the user to input the text they want to translate.
 Uses the translate library's Translator class to perform the translation.
 Handles exceptions gracefully in case of translation errors and outputs the result.
